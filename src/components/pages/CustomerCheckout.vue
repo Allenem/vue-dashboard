@@ -7,19 +7,19 @@
         <thead>
             <th>品名</th>
             <th>数量</th>
-            <th>单价</th>
+            <th class="text-right">单价</th>
         </thead>
         <tbody>
             <tr v-for="item in order.products" :key="item.id">
                 <td class="align-middle">{{ item.product.title }}</td>
                 <td class="align-middle">{{ item.qty }}{{ item.product.unit }}</td>
-                <td class="align-middle text-right">{{ item.final_total / item.qty }}</td>
+                <td class="align-middle text-right">{{ item.final_total / item.qty }}/{{ item.product.unit }}</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="2" class="text-right">总计</td>
-                <td class="text-right">{{order.total}}</td>
+                <td colspan="2" >总计：</td>
+                <td class="text-right">{{order.total}}元</td>
             </tr>
         </tfoot>
     </table>

@@ -136,7 +136,7 @@
             <th></th>
             <th>品名</th>
             <th>数量</th>
-            <th>单价</th>
+            <th class="text-right">单价</th>
           </thead>
           <tbody>
             <tr v-for="item in cart.carts" :key="item.id" >
@@ -153,18 +153,18 @@
                 {{item.product.title}}
                 <div class="text-success" v-if="item.coupon">已套用优惠券</div>
               </td>
-              <td class="align-middle">{{ item.qty }}/{{item.product.unit}}</td>
-              <td class="align-middle text-right">{{ item.final_total }}</td>
+              <td class="align-middle">{{ item.qty }}{{item.product.unit}}</td>
+              <td class="align-middle text-right">{{ item.final_total/item.qty }}/{{item.product.unit}}</td>
             </tr>
           </tbody>
           <tfoot>
             <tr>
-              <td colspan="3" class="text-right">总计</td>
-              <td class="text-right">{{cart.total}}</td>
+              <td colspan="3" >总计：</td>
+              <td class="text-right">{{cart.total}} 元</td>
             </tr>
             <tr v-if="cart.final_total !== cart.total ">
               <td colspan="3" class="text-right text-success">折扣价</td>
-              <td class="text-right text-success">{{ cart.final_total }}</td>
+              <td class="text-right text-success">{{ cart.final_total }} 元</td>
             </tr>
           </tfoot>
         </table>
