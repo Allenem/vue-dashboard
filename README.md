@@ -4,7 +4,7 @@
 
 ## 演示地址：
 
-https://allenem.github.io/vue-dashboard/dist/iindex.html
+https://allenem.github.io/vue-dashboard/dist/index.html
 
 ### tips
 * 1.产品列表、订单列表、优惠券部分 需要登录   
