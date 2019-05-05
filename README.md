@@ -7,10 +7,11 @@
 https://allenem.github.io/vue-dashboard/dist/index.html
 
 ### tips
-* 1.产品列表、订单列表、优惠券部分 需要登录   
-  ①可以自己注册添加商品：参考注册申请API网址：https://vue-course-api.herokuapp.com/   
-  ②也可以使用我这个（Email Adress:1820988819@qq.com , Password:xys0806）
-* 2.模拟订单 无需登录
+* 1.产品列表、订单列表、优惠券部分 <b>需要登录</b>   
+    ①可以自己注册添加商品：参考注册申请API网址：https://vue-course-api.herokuapp.com/   
+    ②也可以使用我这个（Email Address:1820988819@qq.com , Password:xys0806）
+    
+* 2.模拟订单 <b>无需登录</b>
 
 ## Build Setup
 
