@@ -154,7 +154,7 @@
                 <div class="text-success" v-if="item.coupon">已套用优惠券</div>
               </td>
               <td class="align-middle">{{ item.qty }}{{item.product.unit}}</td>
-              <td class="align-middle text-right">{{ item.final_total/item.qty }}/{{item.product.unit}}</td>
+              <td class="align-middle text-right">{{ item.final_total/item.qty }}元/{{item.product.unit}}</td>
             </tr>
           </tbody>
           <tfoot>

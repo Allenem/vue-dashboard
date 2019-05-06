@@ -5,7 +5,7 @@
 //         console.log(c);
 //         console.log(i);
 //         console.log(a);
-//         const currency = (i && c != '.' && ((a.length - i) % 3 === 0) ? `,` :)
+//         const currency = (i && c != '.' && ((a.length - i) % 3 === 0) ? `,` :) //这里没看清老师怎么写的
 //         return currency;
 //     })}`;
 // }

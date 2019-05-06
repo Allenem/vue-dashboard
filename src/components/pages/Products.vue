@@ -53,6 +53,9 @@
         </li>
     </ul>
     </nav>
+    <br>
+    <br>
+    <br>
 
     <!-- add or edit Modal -->
     <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -182,6 +185,7 @@
 
                 <div class="form-group">
                   <div class="form-check"></div>
+                  <label class="form-check-label" for="is_enabled">是否启用&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                   <input
                     class="form-check-input"
                     type="checkbox"
@@ -190,7 +194,6 @@
                     :true-value="1"
                     :false-value="0"
                   >
-                  <label class="form-check-label" for="is_enabled">是否启用</label>
                 </div>
               </div>
             </div>
@@ -219,8 +222,8 @@
                 </div>
                 <div class="moda l-body">是否删除<strong class="textdanger"> {{ tempProduct.title }} </strong> 商品（删除后将无法恢复）</div>
                 <div class="modal- footer">
-                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">取消</button>
-                    <button type="button" class="btn btn-primary" @click="delProduct()">确认</button>
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-outline-danger" @click="delProduct()">确认</button>
                 </div>
             </div>
         </div>

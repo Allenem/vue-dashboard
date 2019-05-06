@@ -1,7 +1,7 @@
 <template>
   <div class="text-center">
     <form class="form-signin" @submit.prevent="signin">
-      <img class="mb-4" src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt width="72" height="72">
+      <img class="mb-4" src="../../../build/logo.png" alt width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">请登录</h1>
       <label for="inputEmail" class="sr-only">Email Address</label>
       <input
@@ -39,8 +39,8 @@ export default {
   data() {
     return {
         user: {
-            username: '',
-            password: ''
+            username: '1820988819@qq.com',
+            password: 'xys0806'
         }
     };
   },
