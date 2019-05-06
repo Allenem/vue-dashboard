@@ -2,17 +2,29 @@
 
 > A Vue.js project: shoppingWeb   
 
+<<<<<<< HEAD
 ## Demo Address
+=======
+## 演示地址：
+>>>>>>> 751c97614720940af9b037dd6168bb655a4cf129
 
 https://allenem.github.io/vue-dashboard/dist/index.html
 
 ### tips
+<<<<<<< HEAD
 * 1.模拟订单 **无需登录**
 
 * 2.产品列表、订单列表、优惠券部分 **需要登录**   
   + 可以使用默认账号密码
   + 也可以clone项目到本地，自己注册添加修改商品信息，注意修改 config/dev.env.js 和 config/prod.env.js 中的 ```CUSTOMPATH``` 为自己的API。
   + 参考注册账号，申请API网址：https://vue-course-api.herokuapp.com/ (老师给的接口，非常感谢)   
+=======
+* 1.产品列表、订单列表、优惠券部分 <b>需要登录</b>   
+    ①可以自己注册添加商品：参考注册申请API网址：https://vue-course-api.herokuapp.com/   
+    ②也可以使用我这个（Email Address:1820988819@qq.com , Password:xys0806）
+    
+* 2.模拟订单 <b>无需登录</b>
+>>>>>>> 751c97614720940af9b037dd6168bb655a4cf129
 
 ## Build Setup
 
@@ -34,9 +46,15 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Used
 * Vue-cli
+<<<<<<< HEAD
 * Vue-axios
 * Bootstrap4
 * 参考注册申请API网址：https://vue-course-api.herokuapp.com/ (老师给的接口，非常感谢)
+=======
+* vue-axios
+* bootstrap4
+* 参考注册申请API网址：https://vue-course-api.herokuapp.com/ （别人写的后台我只是拿来用，非常感谢）
+>>>>>>> 751c97614720940af9b037dd6168bb655a4cf129
 * filter
 * vee-validate
 
@@ -102,6 +120,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 * payPageAndOthers
 ![payPageAndOthers](effectPictures/paypageAndOthers.png)   
+<<<<<<< HEAD
 
 ## Others
 
@@ -120,3 +139,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 >不过这种模式要玩好，还需要后台配置支持。因为我们的应用是个单页客户端应用，如果后台没有正确的配置，当用户在浏览器直接访问 http://oursite.com/user/id 就会返回 404，这就不好看了。
 >   
 >所以呢，你要在服务端增加一个覆盖所有情况的候选资源：如果 URL 匹配不到任何静态资源，则应该返回同一个 index.html 页面，这个页面就是你 app 依赖的页面。
+=======
+>>>>>>> 751c97614720940af9b037dd6168bb655a4cf129
