@@ -2,6 +2,10 @@
 
 > A Vue.js project: shoppingWeb   
 
+![build](https://travis-ci.org/Allenem/vue-dashboard.svg?branch=master)
+![language](https://img.shields.io/badge/language-Vue-brightgreen.svg)
+![Version](https://img.shields.io/badge/Vue-2.9.6-brightgreen.svg)
+
 ## Demo Address
 
 https://allenem.github.io/vue-dashboard/dist/index.html
